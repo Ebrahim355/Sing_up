@@ -1,0 +1,106 @@
+body {
+  background-image: url(imgs/700.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-position: center;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+.continar{
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2) ;
+  width: 550px;
+  height: 90%;
+  text-align: center;
+  border-radius: 15px;
+}
+.continar .wrapper h1{
+  font-size:40px;
+  font-weight: 600;
+  text-align: center;
+
+}
+.wrapper .input-box{
+  margin: 8px 0;
+}
+.input-box input{
+  width: 400px;
+  height: 50px;
+  outline: none;
+  padding: 5px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  border-radius: 60px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.05);
+  color: white;
+  font-size: 17px;
+  
+}
+.continar .btn{
+  width: 100%;
+  height: 60px;
+  border-radius: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  font-size: 17px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.continar .remamber-forget{
+  font-size: 17px;
+  font-weight: 600;
+  
+}
+.continar .remamber-forget a{
+  text-decoration: none;
+  color: #fff;
+  transition: .5s ease;
+}
+.continar .remamber-forget a:hover{
+  color: blue;
+}
+.register-link{
+  font-size: 17px;
+  font-weight: 600;
+}
+.register-link a{
+  text-decoration: none;
+  color: #fff;
+  transition: .5s ease;
+}
+.register-link a:hover{
+  color: blue;
+
+}
+@media (max-width: 767px) {
+  .continar{
+    width: 350px;
+    /* height: 80%; */
+  }
+  .continar .wrapper h1{
+  font-size:30px;
+
+  }
+  .input-box input{
+  width: 250px;
+
+
+  }
+  .continar .btn{
+    width: 300px;
+  }
+  .continar .remamber-forget{
+    font-size: 12px;
+  }
+  .register-link{
+    font-size: 12px;
+
+  }
+}
